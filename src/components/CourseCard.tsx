@@ -26,7 +26,7 @@ const CourseCard = ({
       <div className="relative overflow-hidden">
         <img 
           src={image} 
-          alt={title}
+          alt={`Curso ${title} - Treinamento de segurança no trabalho ACS Treinamentos`}
           className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
         />
         <div className="absolute top-4 right-4 bg-success text-success-foreground px-3 py-1 rounded-full text-sm font-semibold">
