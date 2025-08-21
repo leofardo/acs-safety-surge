@@ -5,6 +5,34 @@ import offshoreImage from "@/assets/offshore-training.jpg";
 
 const Courses = () => {
   const courses = [
+     {
+      title: "Operador de Veículo Submarino (EAD)",
+      description: "Curso para operação de ROVs em operações submarinas, com foco em segurança e eficiência.",
+      image: nr10Image,
+      duration: "8 horas",
+      participants: "EAD",
+      certification: "Certificado Operador ROV",
+      highlights: [
+        "Operação de ROV",
+        "Manutenção e reparo básico",
+        "Segurança em ambientes submarinos",
+        "Comunicação com equipe"
+      ]
+    },
+    {
+      title: "NR 33 e 35 - Trabalho em Altura",
+      description: "Treinamento para atividades executadas acima de 2 metros do nível inferior com risco de queda.",
+      image: nr35Image,
+      duration: "8 horas",
+      participants: "Presencial",
+      certification: "Certificado NR 33 e 35",
+      highlights: [
+        "Análise de risco",
+        "Equipamentos de proteção",
+        "Resgate e primeiros socorros",
+        "Sistemas de ancoragem"
+      ]
+    },
     {
       title: "NR 10 - Segurança em Instalações Elétricas",
       description: "Capacitação para trabalhos em instalações elétricas, prevenção de acidentes e procedimentos de segurança.",
@@ -20,20 +48,6 @@ const Courses = () => {
       ]
     },
     {
-      title: "NR 35 - Trabalho em Altura",
-      description: "Treinamento para atividades executadas acima de 2 metros do nível inferior com risco de queda.",
-      image: nr35Image,
-      duration: "8 horas",
-      participants: "Até 12 pessoas",
-      certification: "Certificado NR 35",
-      highlights: [
-        "Análise de risco",
-        "Equipamentos de proteção",
-        "Resgate e primeiros socorros",
-        "Sistemas de ancoragem"
-      ]
-    },
-    {
       title: "NR 37 - Primeiro Embarque Offshore",
       description: "Capacitação obrigatória para profissionais que trabalham em plataformas marítimas.",
       image: offshoreImage,
@@ -45,20 +59,6 @@ const Courses = () => {
         "Sobrevivência no mar",
         "Equipamentos de segurança",
         "Procedimentos de emergência"
-      ]
-    },
-    {
-      title: "Operador de Veículo Submarino (EAD)",
-      description: "Curso para operação de ROVs em operações submarinas, com foco em segurança e eficiência.",
-      image: nr10Image,
-      duration: "8 horas",
-      participants: "EAD",
-      certification: "Certificado Operador ROV",
-      highlights: [
-        "Operação de ROV",
-        "Manutenção e reparo básico",
-        "Segurança em ambientes submarinos",
-        "Comunicação com equipe"
       ]
     },
     {

@@ -21,7 +21,7 @@ All colors MUST be HSL.
     --popover-foreground: 220 15% 20%;
 
     /* Primary - ACS Blue */
-    --primary: 210 85% 45%;
+    --primary: 210 85% 20%;
     --primary-foreground: 0 0% 98%;
     --primary-hover: 210 85% 40%;
 

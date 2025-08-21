@@ -1,4 +1,5 @@
-import { Shield, Users, Award, Clock, MapPin, CheckCircle } from "lucide-react";
+import { Shield, Users, Award, Clock, MapPin, CheckCircle, Heart } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const AboutUs = () => {
   return (
@@ -63,9 +64,26 @@ const AboutUs = () => {
                 </p>
               </div>
             </div>
+
+            <div className="flex items-start space-x-4">
+              <div className="bg-pink-100 p-3 rounded-lg">
+                <Heart className="h-6 w-6 text-pink-600" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">
+                  Paixão Pelo Que Fazemos
+                </h3>
+                <p className="text-muted-foreground">
+                  Na ACS Treinamentos, paixão por treinamento industrial é o que nos move. 
+                  Nosso DNA é a busca constante pela qualidade, garantindo que nossos clientes 
+                  sempre tenham a melhor experiência e resultados eficazes.
+                </p>
+              </div>
+            </div>
+
           </div>
 
-          <div className="space-y-6">
+          <div className="flex flex-col justify-center">
             <div className="bg-card p-6 rounded-lg border card-elevated">
               <h3 className="text-2xl font-semibold text-foreground mb-4">
                 Nossos Serviços Adicionais
@@ -99,7 +117,7 @@ const AboutUs = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-primary/10 to-secondary/10 p-6 rounded-lg">
+            {/* <div className="bg-gradient-to-r from-primary/10 to-secondary/10 p-6 rounded-lg">
               <div className="flex items-center space-x-3 mb-4">
                 <MapPin className="h-6 w-6 text-primary" />
                 <h3 className="text-xl font-semibold text-foreground">
@@ -113,7 +131,7 @@ const AboutUs = () => {
                 Na ACS Treinamentos, paixão por treinamento industrial é o que nos move. Nosso DNA é a busca constante 
                 pela qualidade, garantindo que nossos clientes sempre tenham a melhor experiência e resultados eficazes.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -125,12 +143,19 @@ const AboutUs = () => {
             Experiência, qualidade e inovação em cada treinamento que oferecemos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="btn-gradient px-8 py-3 rounded-lg text-secondary-foreground font-semibold hover:shadow-lg transition-all">
-              Solicitar Orçamento
-            </button>
-            <button className="border-2 border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all">
-              Fale Conosco
-            </button>
+            <Button 
+              asChild 
+              size="lg"
+              className="btn-gradient px-8 py-3 rounded-lg text-secondary-foreground font-semibold hover:shadow-lg transition-all"
+            >
+              <a 
+                href="https://api.whatsapp.com/send/?phone=5521983620038&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20ACS%20Treinamentos%20e%20tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20dispon%C3%ADveis." 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Solicitar Orçamento
+              </a>
+            </Button>
           </div>
         </div>
       </div>
