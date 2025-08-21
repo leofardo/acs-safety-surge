@@ -20,25 +20,25 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 20%;
 
-    /* Primary - Professional Blue */
-    --primary: 220 85% 35%;
+    /* Primary - ACS Blue */
+    --primary: 210 85% 45%;
     --primary-foreground: 0 0% 98%;
-    --primary-hover: 220 85% 30%;
+    --primary-hover: 210 85% 40%;
 
-    /* Secondary - Industrial Gray */
-    --secondary: 220 8% 94%;
-    --secondary-foreground: 220 15% 25%;
+    /* Secondary - ACS Green */
+    --secondary: 140 60% 45%;
+    --secondary-foreground: 0 0% 98%;
 
     /* Muted tones */
-    --muted: 220 8% 96%;
-    --muted-foreground: 220 8% 45%;
+    --muted: 210 15% 96%;
+    --muted-foreground: 210 10% 45%;
 
     /* Accent - Safety Yellow */
     --accent: 48 96% 65%;
     --accent-foreground: 220 15% 20%;
     --accent-hover: 48 96% 60%;
 
-    /* Success - Safety Green */
+    /* Success - ACS Green */
     --success: 140 60% 45%;
     --success-foreground: 0 0% 98%;
 
@@ -192,13 +192,18 @@ All colors MUST be HSL.
 
   /* Button Variants */
   .btn-gradient {
-    background: var(--gradient-safety);
+    background: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--success)));
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .btn-gradient:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-glow);
+    box-shadow: 0 0 32px hsl(var(--secondary) / 0.4);
+  }
+
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
   }
 
   /* Section Dividers */

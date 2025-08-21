@@ -46,6 +46,118 @@ const Courses = () => {
         "Equipamentos de segurança",
         "Procedimentos de emergência"
       ]
+    },
+    {
+      title: "Operador de Veículo Submarino (EAD)",
+      description: "Curso para operação de ROVs em operações submarinas, com foco em segurança e eficiência.",
+      image: nr10Image,
+      duration: "8 horas",
+      participants: "EAD",
+      certification: "Certificado Operador ROV",
+      highlights: [
+        "Operação de ROV",
+        "Manutenção e reparo básico",
+        "Segurança em ambientes submarinos",
+        "Comunicação com equipe"
+      ]
+    },
+    {
+      title: "Operador de PTA",
+      description: "Curso para operação de Plataforma de Trabalho Aéreo, elevando a segurança e eficiência.",
+      image: nr35Image,
+      duration: "8 horas",
+      participants: "Até 12 pessoas",
+      certification: "Certificado Operador PTA",
+      highlights: [
+        "Operação segura de PTA",
+        "Inspeção de equipamentos",
+        "Comunicação em solo",
+        "Procedimentos de emergência"
+      ]
+    },
+    {
+      title: "Operador de Drone",
+      description: "Pilotando a inovação e a segurança nos céus com treinamento especializado.",
+      image: offshoreImage,
+      duration: "8 horas",
+      participants: "EAD",
+      certification: "Certificado Operador Drone",
+      highlights: [
+        "Técnicas de voo",
+        "Legislação vigente",
+        "Segurança e ética",
+        "Captura de dados"
+      ]
+    },
+    {
+      title: "Montador de Andaimes",
+      description: "Construindo a segurança em altura com treinamento especializado em montagem.",
+      image: nr35Image,
+      duration: "8 horas",
+      participants: "Até 15 pessoas",
+      certification: "Certificado Montador",
+      highlights: [
+        "Técnicas de montagem",
+        "Normas de segurança",
+        "Inspeção de equipamentos",
+        "Primeiros socorros"
+      ]
+    },
+    {
+      title: "Operador de Empilhadeira",
+      description: "Movimentando a logística com segurança e eficiência através de treinamento qualificado.",
+      image: nr10Image,
+      duration: "8 horas",
+      participants: "Até 10 pessoas",
+      certification: "Certificado Operador",
+      highlights: [
+        "Operação segura",
+        "Manutenção básica",
+        "Normas de segurança",
+        "Prevenção de acidentes"
+      ]
+    },
+    {
+      title: "Operador Caminhão Silo Cimenteiro",
+      description: "Transporte eficiente e seguro de cimento com treinamento especializado.",
+      image: offshoreImage,
+      duration: "8 horas",
+      participants: "Até 8 pessoas",
+      certification: "Certificado Operador",
+      highlights: [
+        "Carregamento e descarga",
+        "Manutenção de equipamentos",
+        "Segurança no transporte",
+        "Normas técnicas"
+      ]
+    },
+    {
+      title: "Formação de Equipes CIPA",
+      description: "Garantindo a segurança no ambiente de trabalho através da capacitação de equipes.",
+      image: nr10Image,
+      duration: "20 horas",
+      participants: "Até 20 pessoas",
+      certification: "Certificado CIPA",
+      highlights: [
+        "Identificação de riscos",
+        "Planos de prevenção",
+        "Investigação de acidentes",
+        "Treinamentos de segurança"
+      ]
+    },
+    {
+      title: "Brigadas de Incêndio",
+      description: "Protegendo vidas e patrimônios através de treinamento especializado em combate a incêndios.",
+      image: nr35Image,
+      duration: "20 horas",
+      participants: "Até 15 pessoas",
+      certification: "Certificado Brigadista",
+      highlights: [
+        "Prevenção de incêndios",
+        "Técnicas de combate",
+        "Evacuação de emergência",
+        "Primeiros socorros"
+      ]
     }
   ];
 
