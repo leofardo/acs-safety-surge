@@ -75,29 +75,29 @@ const WhyChooseUs = () => {
         <div className="mt-20 bg-primary rounded-2xl p-8 md:p-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center text-white">
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                 10+
               </div>
               <div className="text-lg font-semibold">Anos de Experiência</div>
             </div>
             
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                 5000+
               </div>
               <div className="text-lg font-semibold">Profissionais Capacitados</div>
             </div>
             
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
                 200+
               </div>
               <div className="text-lg font-semibold">Empresas Atendidas</div>
             </div>
             
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-accent mb-2">
-                98%
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                100%
               </div>
               <div className="text-lg font-semibold">Satisfação dos Clientes</div>
             </div>
