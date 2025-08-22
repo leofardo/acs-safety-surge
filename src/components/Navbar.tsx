@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import acsLogo from "@/assets/acs-logo.png";
+import acsLogo from "@/assets/acs-logo.avif";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <img src={acsLogo} alt="ACS Treinamentos" className="h-12 w-auto" />
+              <img src={acsLogo} alt="ACS Treinamentos" className="h-9 w-auto" />
             </div>
 
             {/* Desktop Navigation */}

@@ -1,7 +1,7 @@
 import { ArrowRight, Shield, Users, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-industrial.jpg";
-import acsLogo from "@/assets/acs-logo.png";
+import acsLogo from "@/assets/acs-logo.avif";
 
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="hero-content container mx-auto px-4 py-20 relative z-10">
         <div className="animate-fade-in">
           {/* Container principal com flex para dividir em duas colunas */}
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-9">
             
             {/* Lado Esquerdo - Conteúdo (60%) */}
             <div className="w-full lg:w-[60%]">
@@ -29,7 +29,7 @@ const Hero = () => {
                 profissionais da indústria, offshore e segurança no trabalho, com atendimento em todo o Brasil, no próprio ambiente do contratante.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-12">
+              <div className="flex flex-col sm:flex-row gap-10 mb-12">
                 <Button 
                   asChild 
                   size="lg" 
@@ -85,14 +85,13 @@ const Hero = () => {
             </div>
 
             {/* Lado Direito - Logo (40%) */}
-            <div className="hidden lg:flex w-full lg:w-[40%] flex justify-center lg:justify-end order-first lg:order-last">
-              <img 
-                src={acsLogo} 
-                alt="ACS Treinamentos Logo" 
-                className="w-72 h-56 sm:w-80 sm:h-64 lg:w-96 lg:h-80 px-6 py-5 bg-white rounded-xl shadow-lg object-contain" 
-              ></img>
-            </div>
-            
+            <div className="hidden lg:flex w-[37%] h-full bg-gradient-to-br from-orange-400 to-orange-600 flex justify-center items-center order-first lg:order-last absolute right-0 inset-y-0 z-10 rounded-2xl" style={{boxShadow: '-15px 0 30px -10px rgba(0, 0, 0, 0.3)'}}>
+  <img 
+    src={acsLogo} 
+    alt="ACS Treinamentos Logo" 
+    className="w-80 h-64 object-contain"
+  />
+</div>
           </div>
         </div>
       </div>
