@@ -85,13 +85,13 @@ const Hero = () => {
             </div>
 
             {/* Lado Direito - Logo (40%) */}
-            <div className="hidden lg:flex w-[37%] h-full bg-gradient-to-br from-orange-400 to-orange-600 flex justify-center items-center order-first lg:order-last absolute right-0 inset-y-0 z-10 rounded-2xl" style={{boxShadow: '-15px 0 30px -10px rgba(0, 0, 0, 0.3)'}}>
-  <img 
-    src={acsLogo} 
-    alt="ACS Treinamentos Logo" 
-    className="w-80 h-64 object-contain"
-  />
-</div>
+            <div className="hidden lg:flex w-[30%] h-[90%] bg-white flex justify-center items-center order-first lg:order-last absolute right-0 inset-y-0 z-10 rounded-2xl" style={{boxShadow: '-15px 0 30px -10px rgba(0, 0, 0, 0.3)'}}>
+              <img 
+                src={acsLogo} 
+                alt="ACS Treinamentos Logo" 
+                className="w-80 h-64 object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>
