@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
     {
       icon: MapPin,
       title: "Atuação Nacional",
-      description: "Bases em Rio de Janeiro e Belém, com atendimento em todo Brasil e plataformas offshore."
+      description: "Com sede e bases no Rio de Janeiro, atendemos empresas em todo o Brasil, inclusive em plataformas offshore. Também oferecemos aulas na modalidade EAD."
     },
     {
       icon: Clock,
@@ -83,7 +83,7 @@ const WhyChooseUs = () => {
             
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">
-                5000+
+                30.000+
               </div>
               <div className="text-lg font-semibold">Profissionais Capacitados</div>
             </div>

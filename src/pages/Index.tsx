@@ -6,6 +6,10 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CoursesSection from "@/components/CoursesSection";
+import InstructorsSection from "@/components/InstructorsSection";
+import FlyersSection from "@/components/FlyersSection";
+import CertificatesSection from "@/components/CertificatesSection";
 
 const Index = () => {
   return (
@@ -13,9 +17,13 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <InstructorsSection/>
         <AboutUs />
-        <Courses />
+        {/* <Courses /> */}
+        <CoursesSection/>
         <WhyChooseUs />
+        <FlyersSection/>
+        <CertificatesSection/>
         <FAQ />
         <Contact />
       </main>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const FAQ = () => {
   const [openItems, setOpenItems] = useState<number[]>([]);
@@ -86,9 +87,15 @@ const FAQ = () => {
           <p className="text-lg text-muted-foreground mb-4">
             Não encontrou a resposta que procurava?
           </p>
-          <button className="btn-gradient px-8 py-3 rounded-lg text-secondary-foreground font-semibold hover:shadow-lg transition-all">
-            Entre em Contato
-          </button>
+          <Button asChild className="btn-gradient px-8 py-3 rounded-lg text-secondary-foreground font-semibold hover:shadow-lg transition-all">
+            <a 
+              href="https://wa.me/5521983620038?text=Olá! Vim pelo site da ACS Treinamentos e gostaria de tirar algumas dúvidas sobre os cursos oferecidos. Poderiam me ajudar?"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Entre em Contato
+            </a>
+          </Button>
         </div>
       </div>
     </section>

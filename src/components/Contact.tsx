@@ -79,31 +79,16 @@ const Contact = () => {
 
                 <div>
                   <label className="text-sm font-semibold text-foreground mb-2 block">
-                    Curso de Interesse
-                  </label>
-                  <select className="w-full p-3 border border-border rounded-md focus:border-primary focus:outline-none bg-background">
-                    <option>Selecione um curso</option>
-                    <option>NR 10 - Segurança em Instalações Elétricas</option>
-                    <option>NR 35 - Trabalho em Altura</option>
-                    <option>NR 37 - Primeiro Embarque Offshore</option>
-                    <option>NR 12 - Segurança em Máquinas</option>
-                    <option>NR 33 - Espaço Confinado</option>
-                    <option>Treinamento Personalizado</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="text-sm font-semibold text-foreground mb-2 block">
                     Mensagem
                   </label>
                   <Textarea 
                     placeholder="Descreva suas necessidades de treinamento..."
-                    rows={4}
+                    rows={22}
                     className="border-border focus:border-primary"
                   />
                 </div>
 
-                <Button className="w-full btn-gradient text-accent-foreground font-semibold text-lg py-6">
+                <Button className="w-full btn-gradient text-white font-semibold text-lg py-6">
                   Enviar Solicitação
                 </Button>
               </form>
@@ -118,11 +103,9 @@ const Contact = () => {
                   <Phone className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-primary mb-2">Telefone</h3>
-                    <p className="text-muted-foreground mb-2">(21) 99999-9999</p>
-                    <p className="text-muted-foreground">(91) 99999-9999</p>
-                    <p className="text-sm text-muted-foreground mt-2">
-                      Atendimento de segunda a sexta, 8h às 18h
-                    </p>
+                    <p className="text-muted-foreground mb-2">(21) 98362-0038</p>
+                    <p className="text-muted-foreground mb-2">(21) 98362-0062</p>
+                    <p className="text-muted-foreground mb-2">(22) 2330-0366</p>
                   </div>
                 </div>
               </CardContent>
@@ -134,8 +117,8 @@ const Contact = () => {
                   <Mail className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-primary mb-2">E-mail</h3>
-                    <p className="text-muted-foreground mb-2">contato@acstreinamentos.com.br</p>
-                    <p className="text-muted-foreground">comercial@acstreinamentos.com.br</p>
+                    <p className="text-muted-foreground mb-2">confirmaremail@acstreinamentos.com.br</p>
+                    <p className="text-muted-foreground">confirmaremail@acstreinamentos.com.br</p>
                     <p className="text-sm text-muted-foreground mt-2">
                       Resposta em até 24 horas
                     </p>
@@ -154,15 +137,17 @@ const Contact = () => {
                       <div>
                         <p className="font-semibold text-foreground">Rio de Janeiro - RJ</p>
                         <p className="text-muted-foreground text-sm">
-                          Base principal para atendimento Sudeste
+                          Escritório Central: Av. Rio Branco nº 31 – 1913 Centro
                         </p>
                       </div>
+                      
                       <div>
-                        <p className="font-semibold text-foreground">Belém - PA</p>
+                        <p className="font-semibold text-foreground">Casemiro de Abreu - RJ</p>
                         <p className="text-muted-foreground text-sm">
-                          Base Norte para operações offshore
+                          Rua Açaí, Lt 07- Qd 09 Recanto dos Paratis Barra de São João
                         </p>
                       </div>
+                      
                     </div>
                   </div>
                 </div>
