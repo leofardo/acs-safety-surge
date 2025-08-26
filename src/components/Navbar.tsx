@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Contact Bar */}
-      <div className="bg-primary text-primary-foreground py-2 px-4 text-sm">
+      <div className="hidden md:block lg:block bg-primary text-primary-foreground py-2 px-4 text-sm">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
 
             {/* CTA Button */}
-            <Button asChild className="btn-gradient text-white font-semibold">
+            <Button asChild className="hidden md:block lg:block btn-gradient text-white font-semibold">
               <a 
                 href="https://api.whatsapp.com/send/?phone=5521983620038&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20ACS%20Treinamentos%20e%20tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20dispon%C3%ADveis." 
                 target="_blank" 
@@ -119,9 +119,15 @@ const Navbar = () => {
               >
                 Contato
               </a>
-              <Button className="w-full btn-gradient text-accent-foreground font-semibold">
+              <Button asChild className="w-full btn-gradient text-white font-semibold">
+              <a 
+                href="https://api.whatsapp.com/send/?phone=5521983620038&text=Ol%C3%A1,%20vim%20pelo%20site%20da%20ACS%20Treinamentos%20e%20tenho%20interesse%20em%20saber%20mais%20sobre%20os%20cursos%20dispon%C3%ADveis." 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 Solicitar Orçamento
-              </Button>
+              </a>
+            </Button>
             </div>
           </div>
         )}
