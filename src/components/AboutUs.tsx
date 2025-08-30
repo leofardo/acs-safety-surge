@@ -1,4 +1,4 @@
-import { Shield, Users, Award, Clock, MapPin, CheckCircle, Heart } from "lucide-react";
+import { Shield, Users,Factory, Award, Clock, MapPin, CheckCircle, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const AboutUs = () => {
@@ -49,6 +49,21 @@ const AboutUs = () => {
               </div>
             </div>
 
+
+            <div className="flex items-start space-x-4">
+              <div className="bg-primary/10 p-3 rounded-lg">
+                <Factory className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">
+                  Treinamentos para Pessoa Jurídica
+                </h3>
+                <p className="text-muted-foreground">
+                  Os treinamentos são voltados para pessoa jurídica, logo não cabe na intenção da pessoa físisca
+                </p>
+              </div>
+            </div>
+
             <div className="flex items-start space-x-4">
               <div className="bg-success/10 p-3 rounded-lg">
                 <Award className="h-6 w-6 text-success" />
@@ -58,8 +73,7 @@ const AboutUs = () => {
                   Inovação e Qualidade
                 </h3>
                 <p className="text-muted-foreground">
-                  Inovação é um dos nossos pilares. A ACS Treinamentos oferece alguns cursos na modalidade de Ensino a 
-                  Distância (EAD), permitindo que você se qualifique no conforto de sua casa ou trabalho.
+                  Inovação é um dos nossos pilares. A ACS Treinamentos oferece alguns cursos na modalidade de Ensino a Distância (EAD), permitindo que você se qualifique no conforto de sua casa ou trabalho.
                 </p>
               </div>
             </div>
@@ -73,9 +87,7 @@ const AboutUs = () => {
                   Paixão Pelo Que Fazemos
                 </h3>
                 <p className="text-muted-foreground">
-                  Na ACS Treinamentos, paixão por treinamento industrial é o que nos move. 
-                  Nosso DNA é a busca constante pela qualidade, garantindo que nossos clientes 
-                  sempre tenham a melhor experiência e resultados eficazes.
+                  Na ACS Treinamentos, paixão por treinamento industrial é o que nos move. Nosso DNA é a busca constante pela qualidade, garantindo que nossos clientes sempre tenham a melhor experiência e resultados eficazes.
                 </p>
               </div>
             </div>

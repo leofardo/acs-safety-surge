@@ -13,7 +13,7 @@ const CoursesSection = () => {
   [
     {
       "id": "1",
-      "nome_curso": "NR 1- Estudo de Perigos e Operacionalidade (HAZOP)",
+      "nome_curso": "NR 1- Estudo de Perigos",
       "descricao": "Capacitação em 8 horas de todos empregados que atuarão como Gerentes, Supervisores, Engenheiros de Processo/Projeto, Técnicos ligados à Qualidade/Meio Ambiente/Segurança, Coordenadores, Analistas da Confiabilidade de Sistemas. Gerentes de RH, Gestão de Pessoas e Jurídico.",
       "obrigatoriedade": "Mandatório",
       "objetivo": "Atender a legislação trabalhista",

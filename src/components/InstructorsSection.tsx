@@ -98,10 +98,10 @@ const InstructorsSection = () => {
                       {/* Principal: grande e com CTAs */}
                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5 rounded-xl border bg-white/80">
                         <div className="flex items-center gap-3">
-                          <Phone className="h-6 w-6 text-primary" />
+                          <Phone className="h-6  w-6 text-primary" />
                           <a
                             href={`tel:${phones[0].digits}`}
-                            className="font-extrabold tracking-tight text-primary text-3xl md:text-4xl"
+                            className="font-extrabold tracking-tight text-primary text-2xl"
                             aria-label={`Ligar para ${phones[0].display}`}
                           >
                             {phones[0].display}
