@@ -5,22 +5,22 @@ const WhyChooseUs = () => {
     {
       icon: Shield,
       title: "Certificação Reconhecida",
-      description: "Certificados válidos em todo território nacional, atendendo às exigências do Ministério do Trabalho."
+      description: "Certificados válidos em todo território nacional, atendendo às exigências do Ministério do Trabalho. Neles constam o Auto de Responsabilidade Técnica (A.R.T.) dos nossos instrutores facilitando a rastreabilidade e conformidade com a legislação."
     },
     {
       icon: Users,
       title: "Instrutores Especializados",
-      description: "Equipe de profissionais com vasta experiência prática nas áreas de segurança e indústria offshore."
+      description: "Equipe de profissionais com vasta experiência prática nas áreas de segurança e indústria offshore. Exigimos dos nossos instrutores especialização na área e pelo menos 10 anos de prática, para compor nosso time."
     },
     {
       icon: Award,
       title: "Metodologia Prática",
-      description: "Treinamentos que combinam teoria e prática, proporcionando aprendizado efetivo e aplicável."
+      description: "Treinamentos que combinam teoria e prática, proporcionando aprendizado efetivo e aplicável. Sempre que possível levamos os treinamentos ao ambiente da contratante, para que a prática seja a mais realista possível e com os recursos que os empregados estão habituados a usarem."
     },
     {
       icon: MapPin,
       title: "Atuação Nacional",
-      description: "Com sede e bases no Rio de Janeiro, atendemos empresas em todo o Brasil, inclusive em plataformas offshore. Também oferecemos aulas na modalidade EAD."
+      description: "Com sede no Rio de Janeiro e base em Barra de São João (distrito de Casimiro de Abreu), atendemos empresas em todo o Brasil, inclusive em plataformas offshore. Também oferecemos aulas na modalidade EAD (“on line” ou vídeo aulas)."
     },
     {
       icon: Clock,
@@ -42,8 +42,8 @@ const WhyChooseUs = () => {
             Por Que Escolher a ACS Treinamentos?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Somos especialistas em capacitação industrial, oferecendo soluções completas 
-            para empresas que buscam excelência em segurança e compliance.
+            Somos especialistas em capacitação industrial, oferecendo soluções completas para empresas que buscam excelência em segurança e compliance. 
+            Todos nossos treinamentos são customizados de acordo com as necessidades das nossas contratantes.
           </p>
         </div>
 

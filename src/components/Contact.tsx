@@ -117,8 +117,8 @@ const Contact = () => {
                   <Mail className="h-8 w-8 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-xl font-bold text-primary mb-2">E-mail</h3>
-                    <p className="text-muted-foreground mb-2">confirmaremail@acstreinamentos.com.br</p>
-                    <p className="text-muted-foreground">confirmaremail@acstreinamentos.com.br</p>
+                    <p className="text-muted-foreground mb-2">contato@acstreinamentos.com.br</p>
+                    <p className="text-muted-foreground">avelino@acstreinamentos.com.br</p>
                     <p className="text-sm text-muted-foreground mt-2">
                       Resposta em até 24 horas
                     </p>

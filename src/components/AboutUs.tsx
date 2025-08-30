@@ -25,12 +25,11 @@ const AboutUs = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">
-                  Atendimento 24 horas
+                  Atendimento 24 horas sob contrato
                 </h3>
                 <p className="text-muted-foreground">
-                  Atuamos nos mais altos padrões de qualidade, com atendimento 24 horas por dia, 7 dias por semana, 365 dias 
-                  por ano (8x24x365). Nossos treinamentos industriais são baseados e certificados pelas Normas 
-                  Regulamentadoras (NRs).
+                  Atuamos nos mais altos padrões de qualidade, com atendimento 24 horas por dia, 7 dias por semana, 365 dias por ano (8x24x365). 
+                  Nossos treinamentos industriais são baseados e certificados pelas Normas Regulamentadoras (NRs).
                 </p>
               </div>
             </div>
