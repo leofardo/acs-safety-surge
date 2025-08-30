@@ -86,7 +86,7 @@ const Hero = () => {
 
             {/* Lado Direito - Logo (40%) */}
             <div 
-              className="hidden lg:flex w-[30%] h-[90%] bg-orange-100 flex justify-center items-center order-first lg:order-last absolute right-0 inset-y-0 z-10 rounded-2xl" 
+              className="hidden lg:flex w-[30%] h-[90%] bg-orange-200 flex justify-center items-center order-first lg:order-last absolute right-0 inset-y-0 z-10 rounded-2xl" 
               style={{ boxShadow: '-15px 0 30px -10px rgba(0, 0, 0, 0.3)' }}
             >
               <img 
