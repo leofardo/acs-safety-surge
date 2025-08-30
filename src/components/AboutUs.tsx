@@ -49,21 +49,6 @@ const AboutUs = () => {
               </div>
             </div>
 
-
-            <div className="flex items-start space-x-4">
-              <div className="bg-primary/10 p-3 rounded-lg">
-                <Factory className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-2">
-                  Treinamentos para Pessoa Jurídica
-                </h3>
-                <p className="text-muted-foreground">
-                  Os treinamentos são voltados para pessoa jurídica, logo não cabe na intenção da pessoa físisca
-                </p>
-              </div>
-            </div>
-
             <div className="flex items-start space-x-4">
               <div className="bg-success/10 p-3 rounded-lg">
                 <Award className="h-6 w-6 text-success" />
