@@ -58,7 +58,7 @@ const AboutUs = () => {
                   Inovação e Qualidade
                 </h3>
                 <p className="text-muted-foreground">
-                  Inovação é um dos nossos pilares. A ACS Treinamentos oferece alguns cursos na modalidade de Ensino a Distância (EAD), permitindo que você se qualifique no conforto de sua casa ou trabalho.
+                  Inovação é um dos nossos pilares. A ACS Treinamentos oferece alguns cursos na modalidade de Ensino a Distância (EAD), permitindo que seus empregados se qualifiquem no conforto de sua casa ou trabalho.
                 </p>
               </div>
             </div>
