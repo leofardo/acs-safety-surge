@@ -11,8 +11,8 @@ const InstructorsSection = () => {
   // no topo do arquivo (ou acima do return)
   const phones = [
     { display: "(21) 98362-0038", digits: "5521983620038", primary: true }, // principal (Whats + tel)
-    { display: "21 98362-0062", digits: "5521983620062" },
-    { display: "22 2330-0366", digits: "552223300366" },
+    { display: "(21) 98362-0062", digits: "5521983620062" },
+    { display: "(22) 2330-0366", digits: "552223300366" },
   ];
 
   const whatsappMsg =
@@ -124,7 +124,54 @@ const InstructorsSection = () => {
                         </div>
                       </div>
 
-                      {/* Outros números: lista clicável */}
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5 rounded-xl border bg-white/80">
+                        <div className="flex items-center gap-3">
+                          <Phone className="h-6  w-6 text-primary" />
+                          <a
+                            href={`tel:${phones[1].digits}`}
+                            className="font-extrabold tracking-tight text-primary text-2xl"
+                            aria-label={`Ligar para ${phones[1].display}`}
+                          >
+                            {phones[1].display}
+                          </a>
+                        </div>
+
+                        <div className="flex gap-3">
+                          <Button asChild size="lg" className="w-full sm:w-auto">
+                            <a
+                              href={`https://api.whatsapp.com/send/?phone=${phones[1].digits}&text=${whatsappMsg}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Falar no WhatsApp
+                            </a>
+                          </Button>
+                          <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                            <a href={`tel:${phones[1].digits}`}>Ligar agora</a>
+                          </Button>
+                        </div>
+                      </div>
+
+                       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 p-5 rounded-xl border bg-white/80">
+                        <div className="flex items-center gap-3">
+                          <Phone className="h-6  w-6 text-primary" />
+                          <a
+                            href={`tel:${phones[2].digits}`}
+                            className="font-extrabold tracking-tight text-primary text-2xl"
+                            aria-label={`Ligar para ${phones[2].display}`}
+                          >
+                            {phones[2].display}
+                          </a>
+                        </div>
+
+                        <div className="flex gap-3">
+                          <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                            <a href={`tel:${phones[1].digits}`}>Ligar agora</a>
+                          </Button>
+                        </div>
+                      </div>
+
+                      {/* Outros números: lista clicável
                       <div className="p-4 rounded-xl border bg-white/70">
                         <p className="text-sm font-semibold text-primary mb-3">Outros contatos</p>
                         <ul className="grid sm:grid-cols-2 gap-2">
@@ -141,7 +188,7 @@ const InstructorsSection = () => {
                             </li>
                           ))}
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
 
                   </div>

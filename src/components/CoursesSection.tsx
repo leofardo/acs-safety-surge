@@ -74,15 +74,15 @@ const CoursesSection = () => {
       "carga": "8",
       "categoria": "Meio Ambiente"
     },
-    {
-      "id": "8",
-      "nome_curso": "NR 6 IN-SST-MTB 01 - Proteção Respiratória",
-      "descricao": "Capacitação em 8 horas de todos empregados que atuarão com respiração forçada ou autônoma em ambientes com a presença de aerodispersóides ou gás.",
-      "obrigatoriedade": "Mandatório",
-      "objetivo": "Atender a legislação trabalhista",
-      "carga": "8",
-      "categoria": "EPIs"
-    },
+    // {
+    //   "id": "8",
+    //   "nome_curso": "NR 6 IN-SST-MTB 01 - Proteção Respiratória",
+    //   "descricao": "Capacitação em 8 horas de todos empregados que atuarão com respiração forçada ou autônoma em ambientes com a presença de aerodispersóides ou gás.",
+    //   "obrigatoriedade": "Mandatório",
+    //   "objetivo": "Atender a legislação trabalhista",
+    //   "carga": "8",
+    //   "categoria": "EPIs"
+    // },
     {
       "id": "9",
       "nome_curso": "NR 9 (Anexo 2) - Capacitação de Trabalhadores com Exposição Ocupacional ao Benzeno",

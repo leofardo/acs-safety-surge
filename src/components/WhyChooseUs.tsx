@@ -41,10 +41,18 @@ const WhyChooseUs = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Por Que Escolher a ACS Treinamentos?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+        
+        <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Somos especialistas em capacitação industrial, oferecendo soluções completas para empresas que buscam excelência em segurança e compliance. 
-            Todos nossos treinamentos são customizados de acordo com as necessidades das nossas contratantes.
-          </p>
+          Todos nossos treinamentos são customizados de acordo com as necessidades das nossas contratantes.
+        </p>
+
+          <p className="mt-6 text-sm font-bold text-red-600 max-w-3xl mx-auto leading-relaxed flex items-center gap-2">
+          Evite multas e acidentes na sua empresa: um simples erro na segurança do trabalho pode gerar penalidades de até R$ 50 mil. 
+          Invista em capacitação e mantenha sua empresa em conformidade com a legislação.
+        </p>
+
+
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
