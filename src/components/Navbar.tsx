@@ -35,31 +35,35 @@ const Navbar = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <img src={acsLogo} alt="ACS Treinamentos" className="h-9 w-auto" />
+              <img src={acsLogo} alt="ACS Treinamentos" className="h-9 w-auto" 
+                loading="lazy"
+                width={50}
+                height={50}
+              />
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <a
-                href="#inicio"
+                href="https://www.acstreinamentos.com.br/#inicio"
                 className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 Início
               </a>
               <a
-                href="#quem-somos"
+                href="https://www.acstreinamentos.com.br/#quem-somos"
                 className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 Quem Somos
               </a>
               <a
-                href="#cursos"
+                href="https://www.acstreinamentos.com.br/#cursos"
                 className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 Cursos
               </a>
               <a
-                href="#contato"
+                href="https://www.acstreinamentos.com.br/#contato"
                 className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 Contato

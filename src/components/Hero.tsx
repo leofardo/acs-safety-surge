@@ -93,6 +93,9 @@ const Hero = () => {
                 src={acsLogo} 
                 alt="ACS Treinamentos Logo" 
                 className="w-80 h-64 object-contain"
+                loading="lazy"
+                width={640}
+                height={360}
               />
             </div>
 

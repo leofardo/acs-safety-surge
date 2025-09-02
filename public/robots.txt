@@ -1,14 +1,28 @@
+# Robots.txt - ACS Treinamentos
+
+# Google
 User-agent: Googlebot
 Allow: /
 
+# Bing
 User-agent: Bingbot
 Allow: /
 
+# Twitter
 User-agent: Twitterbot
 Allow: /
 
+# Facebook
 User-agent: facebookexternalhit
 Allow: /
 
+# Outros bots
 User-agent: *
 Allow: /
+
+# Bloqueia URLs inválidas que foram indexadas
+Disallow: /blank
+Disallow: /blank-*
+
+# Indica o sitemap para os buscadores
+Sitemap: https://www.acstreinamentos.com.br/sitemap.xml

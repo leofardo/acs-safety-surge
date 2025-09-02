@@ -20,7 +20,7 @@ const InstructorsSection = () => {
 
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="instructors" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
@@ -44,6 +44,9 @@ const InstructorsSection = () => {
                       src={folderImage}
                       alt="ACS Treinamentos - Folder institucional"
                       className="w-50 h-50 object-cover"
+                      loading="lazy"
+                      width={640}
+                      height={360}
                     />
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" /> */}
                   </div>

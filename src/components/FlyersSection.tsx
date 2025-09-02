@@ -39,7 +39,7 @@ const FlyersSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="flyers" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
@@ -61,6 +61,9 @@ const FlyersSection = () => {
                       <img 
                         src={flyer.image} 
                         alt={flyer.title}
+                        loading="lazy"
+                        width={640}
+                        height={360}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         onError={(e) => {
                           const target = e.target as HTMLImageElement;

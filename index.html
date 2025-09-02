@@ -1,104 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- HEAD SEO OTIMIZADO - ACS Treinamentos (1 página only) -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Preconnect para performance -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Performance: fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- SEO Meta Tags -->
-    <title>ACS Treinamentos - Especialistas em Treinamento Industrial e Offshore | NR 10, NR 35, NR 37</title>
-    <meta name="description" content="ACS Treinamentos oferece cursos certificados de segurança no trabalho desde 2017. Especialistas em NR 10, NR 35, NR 37, treinamentos offshore e capacitação industrial em RJ e Belém. Instrutores bilíngues disponíveis 24h." />
-    <meta name="author" content="ACS Treinamentos" />
-    <meta name="keywords" content="treinamento industrial, cursos NR, segurança no trabalho, NR 10 elétrica, NR 35 altura, NR 37 offshore, capacitação profissional, Rio de Janeiro, Belém, CIPA, brigada incêndio, operador empilhadeira, montador andaimes" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://acstreinamentos.com.br" />
-    
-    <!-- Open Graph / Facebook -->
+
+    <!-- Canonical / Hreflang -->
+    <link rel="canonical" href="https://acstreinamentos.com.br/" />
+    <link rel="alternate" href="https://acstreinamentos.com.br/" hreflang="pt-BR" />
+    <link rel="alternate" href="https://acstreinamentos.com.br/" hreflang="x-default" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- Title + Description (com variações de busca) -->
+    <title>ACS Treinamentos — Cursos de Normas Regulamentadoras (NRs) e Offshore | In Company em todo o Brasil</title>
+    <meta name="description" content="Cursos de normas regulamentadoras (NRs) e treinamentos de segurança do trabalho: NR 1, NR 6, NR 10, NR 12, NR 18, NR 23, NR 33, NR 35, Brigada de Incêndio, CIPA e offshore. Instrutores experientes, formatos presencial/EAD e atendimento in company em todo o Brasil." />
+
+    <!-- Palavras-chave (variações e cauda longa) -->
+    <meta name="keywords" content="cursos de NR, cursos de normas regulamentadoras, treinamentos NR, curso NR 10, curso NR 12, curso NR 18, curso NR 23, curso NR 33, curso NR 35, espaço confinado, trabalho em altura, brigada de incêndio, CIPA, EPI, segurança do trabalho, treinamento in company, cursos NR presencial, cursos NR EAD, cursos NR no Brasil" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="https://acstreinamentos.com.br/favicon.ico" sizes="any">
+    <link rel="icon" href="https://acstreinamentos.com.br/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://acstreinamentos.com.br/apple-touch-icon.png">
+    <meta name="theme-color" content="#0f3c57" />
+
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://acstreinamentos.com.br" />
-    <meta property="og:title" content="ACS Treinamentos - Especialistas em Treinamento Industrial e Offshore" />
-    <meta property="og:description" content="Cursos certificados de segurança no trabalho com instrutores especializados. NR 10, NR 35, NR 37 e mais. Atendimento 24h em RJ e Belém." />
-    <meta property="og:image" content="https://acstreinamentos.com.br/og-image.jpg" />
+    <meta property="og:url" content="https://acstreinamentos.com.br/" />
+    <meta property="og:title" content="ACS Treinamentos — Especialistas em NRs e Offshore" />
+    <meta property="og:description" content="Cursos de NR (NR 1, NR 6, NR 10, NR 12, NR 18, NR 23, NR 33, NR 35), Brigada de Incêndio, CIPA e offshore. In company em todo o Brasil." />
+    <meta property="og:image" content="https://acstreinamentos.com.br/og-acs.jpg" />
     <meta property="og:site_name" content="ACS Treinamentos" />
     <meta property="og:locale" content="pt_BR" />
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://acstreinamentos.com.br" />
-    <meta name="twitter:title" content="ACS Treinamentos - Especialistas em Treinamento Industrial" />
-    <meta name="twitter:description" content="Cursos certificados de segurança no trabalho com instrutores especializados." />
-    <meta name="twitter:image" content="https://acstreinamentos.com.br/og-image.jpg" />
-    
-    <!-- Schema.org structured data -->
+    <meta name="twitter:title" content="ACS Treinamentos — Cursos de Normas Regulamentadoras e Offshore" />
+    <meta name="twitter:description" content="Treinamentos NR com instrutores experientes. Presencial/EAD e in company em todo o Brasil." />
+    <meta name="twitter:image" content="https://acstreinamentos.com.br/og-acs.jpg" />
+
+    <!-- Itens Schema extras via itemprop (Google) -->
+    <meta itemprop="name" content="ACS Treinamentos — Cursos de Normas Regulamentadoras (NRs)" />
+    <meta itemprop="description" content="Cursos de NR e segurança do trabalho: NR 1, 6, 10, 12, 18, 23, 33, 35; Brigada e CIPA; offshore; presencial/EAD; in company no Brasil." />
+    <meta itemprop="image" content="https://acstreinamentos.com.br/og-acs.jpg" />
+
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "ACS Treinamentos",
-      "url": "https://acstreinamentos.com.br",
-      "logo": "https://acstreinamentos.com.br/logo.png",
-      "description": "Especialistas em treinamentos industriais e offshore desde 2017",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Rio de Janeiro",
-        "addressRegion": "RJ",
-        "addressCountry": "BR"
-      },
-      "contactPoint": [
+      "@graph": [
         {
-          "@type": "ContactPoint",
-          "telephone": "+55-21-99999-9999",
-          "contactType": "customer service",
+          "@type": ["Organization","ProfessionalService"],
+          "@id": "https://acstreinamentos.com.br#org",
+          "name": "ACS Treinamentos",
+          "url": "https://acstreinamentos.com.br",
+          "logo": "https://acstreinamentos.com.br/logo-acs.png",
+          "foundingDate": "2017",
+          "description": "Capacitação industrial e cursos de Normas Regulamentadoras (NRs). Atendimento in company em todo o Brasil.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rio de Janeiro",
+            "addressRegion": "RJ",
+            "addressCountry": "BR"
+          },
           "areaServed": "BR",
-          "availableLanguage": ["Portuguese", "English"]
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/acstreinamentos",
-        "https://www.instagram.com/acstreinamentos"
-      ],
-      "offers": {
-        "@type": "Service",
-        "serviceType": "Industrial Training",
-        "areaServed": "Brazil",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Cursos de Segurança no Trabalho",
-          "itemListElement": [
+          "contactPoint": [
             {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Course",
-                "name": "NR 10 - Segurança em Instalações Elétricas",
-                "description": "Capacitação para trabalhos em instalações elétricas",
-                "provider": "ACS Treinamentos"
-              }
+              "@type": "ContactPoint",
+              "telephone": "+55-21-98362-0038",
+              "contactType": "customer service",
+              "areaServed": "BR",
+              "availableLanguage": ["Portuguese","English"]
             },
             {
-              "@type": "Offer", 
-              "itemOffered": {
-                "@type": "Course",
-                "name": "NR 35 - Trabalho em Altura",
-                "description": "Treinamento para atividades em altura",
-                "provider": "ACS Treinamentos"
-              }
+              "@type": "ContactPoint",
+              "telephone": "+55-21-98362-0062",
+              "contactType": "sales",
+              "areaServed": "BR",
+              "availableLanguage": ["Portuguese","English"]
             },
             {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Course", 
-                "name": "NR 37 - Primeiro Embarque Offshore",
-                "description": "Capacitação para trabalho em plataformas marítimas",
-                "provider": "ACS Treinamentos"
-              }
+              "@type": "ContactPoint",
+              "telephone": "+55-22-2330-0366",
+              "contactType": "customer service",
+              "areaServed": "BR",
+              "availableLanguage": ["Portuguese","English"]
+            }
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Cursos de Normas Regulamentadoras",
+            "itemListElement": [
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 1 — Disposições Gerais"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 6 — Equipamentos de Proteção Individual"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 10 — Segurança em Instalações Elétricas"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 12 — Máquinas e Equipamentos"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 18 — Condições e Meio Ambiente na Indústria da Construção"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 23 — Proteção Contra Incêndios"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 33 — Espaço Confinado"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"NR 35 — Trabalho em Altura"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"Brigada de Incêndio"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"CIPA — Comissão Interna de Prevenção de Acidentes"}},
+              {"@type":"Offer","itemOffered":{"@type":"Course","name":"Treinamentos Offshore"}}
+            ]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://acstreinamentos.com.br#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Quais cursos de NR a ACS oferece?",
+              "acceptedAnswer": { "@type": "Answer", "text": "NR 1, NR 6, NR 10, NR 12, NR 18, NR 23, NR 33, NR 35, além de Brigada de Incêndio, CIPA e treinamentos offshore." }
+            },
+            {
+              "@type": "Question",
+              "name": "Vocês realizam treinamentos in company?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sim. Atendemos empresas em todo o Brasil com treinamentos in company, adaptados às necessidades da operação." }
+            },
+            {
+              "@type": "Question",
+              "name": "Os certificados são reconhecidos nacionalmente?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sim. Os certificados são válidos em todo o território nacional, com ART dos instrutores quando aplicável." }
+            },
+            {
+              "@type": "Question",
+              "name": "Há opções presencial e EAD?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Oferecemos treinamentos presenciais e EAD, conforme a norma e a necessidade da empresa." }
+            },
+            {
+              "@type": "Question",
+              "name": "Vocês têm instrutores bilíngues?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Temos instrutores bilíngues (português/inglês) para atender operações onshore e offshore." }
             }
           ]
         }
-      }
+      ]
     }
     </script>
   </head>
