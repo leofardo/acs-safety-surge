@@ -94,7 +94,7 @@ const Contact = () => {
       const delay = new Promise(resolve => setTimeout(resolve, 1000));
       
       // Fazer requisição
-      const requestPromise = fetch('http://api.acstreinamentos.com.br/contact_handler.php', {
+      const requestPromise = fetch('https://api.acstreinamentos.com.br/contact_handler.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
