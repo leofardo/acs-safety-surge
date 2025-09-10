@@ -45,7 +45,7 @@ const InstructorsSection = () => {
                       alt="ACS Treinamentos - Folder institucional"
                       className="w-50 h-50 object-cover"
                       loading="lazy"
-                      width={640}
+                      width={590}
                       height={360}
                     />
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" /> */}

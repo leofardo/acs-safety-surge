@@ -78,9 +78,30 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-primary-foreground/20">
         <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm">
               © {new Date().getFullYear()} ACS Treinamentos. Todos os direitos reservados.
+            </p>
+            
+            <p className="text-primary-foreground/60 text-sm">
+              Feito por{" "}
+              <a 
+                href="https://leonardoferreira.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary-foreground/60 hover:text-primary-foreground/80 transition-colors duration-200"
+              >
+                Leonardo Ferreira
+              </a>
+              {" "}da{" "}
+              <a 
+                href="https://lpddatasolutions.com.br" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary-foreground/60 hover:text-primary-foreground/80 transition-colors duration-200"
+              >
+                LPD Data Solutions
+              </a>
             </p>
           </div>
         </div>
